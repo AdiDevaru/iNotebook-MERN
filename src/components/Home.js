@@ -1,9 +1,13 @@
 import React from 'react'
+import Notes from './Notes'
 
 export default function Home() {
+
   return (
     <>
-      <h1>Home Page</h1>
+      <div className="my-3">
+          <Notes/>
+      </div>
     </>
   )
 }
